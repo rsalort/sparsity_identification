@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Aug 27 13:00:33 2026
+Sparsity Identification and Information Extraction for Quantum States
+
+Moments and quantiles computation
 
 @author: rodrigosalort
 """
