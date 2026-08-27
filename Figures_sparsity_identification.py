@@ -750,7 +750,7 @@ con2 = ConnectionPatch(
 fig.add_artist(con1)
 fig.add_artist(con2)
 
-#plt.tight_layout()
+plt.tight_layout()
 plt.show()
 
 
