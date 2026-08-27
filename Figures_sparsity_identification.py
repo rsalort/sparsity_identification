@@ -43,7 +43,7 @@ plt.grid(axis='y', ls='--', alpha=.5)
 plt.xlim(.5, d + .5)
 plt.ylim(0, 1.5/d)
 plt.ticklabel_format(axis='y', style='sci', scilimits=(0, 0))
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
 
@@ -61,7 +61,7 @@ plt.ylabel('Probability, $p_i$')
 plt.grid(axis='y', ls='--', alpha=.5)
 plt.xlim(1, d)
 plt.ylim(0, 1.1*p_normal.max())
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
 
@@ -116,7 +116,7 @@ for y in zoom_ylim:
         axesA=ax, axesB=axins,
         color='black', lw=1, alpha=.6))
 
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
 # 4. Highly sparse uniform distribution
@@ -167,7 +167,7 @@ for y in zoom_ylim:
         axesA=ax, axesB=axins,
         color='black', lw=1, alpha=.6))
 
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
 
@@ -243,7 +243,7 @@ mark_inset(
     linestyle="--", alpha=.7
 )
 
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
 #%% Fig: 5.3 - Evolution of states observed exactly once
@@ -389,7 +389,7 @@ ax.set_xlim(0, M_max / d * 100)
 ax.set_ylim(0, 1.05)
 ax.xaxis.set_major_formatter(mtick.PercentFormatter(decimals=2))
 
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
 #%% Fig: 5.5 - Missing mass upper bounds across distributions
@@ -750,7 +750,7 @@ con2 = ConnectionPatch(
 fig.add_artist(con1)
 fig.add_artist(con2)
 
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
 
@@ -996,7 +996,7 @@ con4 = ConnectionPatch(xyA=(zoom2_xlim[0], zoom2_ylim[0]), xyB=(zoom2_xlim[0], z
 fig.add_artist(con3)
 fig.add_artist(con4)
  
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 
 
