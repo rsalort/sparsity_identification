@@ -4,6 +4,8 @@
 
 Sparsity Identification and Information Extraction for Quantum States
 
+Simulation and figures
+
 @author: rodrigosalort
 """
 
