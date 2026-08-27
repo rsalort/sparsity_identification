@@ -1,6 +1,6 @@
 # Sparsity Identification and Information Extraction for Quantum States
 
-This repository contains the Python code required to replicate the figures and results presented in the pdf document.
+This repository contains the Python code required to replicate the figures and results presented in the Master's thesis.
 
 ## Repository Files
 
