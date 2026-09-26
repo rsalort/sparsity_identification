@@ -389,7 +389,7 @@ ax.set_xlim(0, M_max / d * 100)
 ax.set_ylim(0, 1.05)
 ax.xaxis.set_major_formatter(mtick.PercentFormatter(decimals=2))
 
-#plt.tight_layout()
+plt.tight_layout()
 plt.show()
 
 #%% Fig: 5.5 - Missing mass upper bounds across distributions
